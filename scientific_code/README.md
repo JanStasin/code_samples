@@ -1,0 +1,1 @@
+This repository contains some of the code samples used by me during my Ph.D. work at Brain Simulation Section + the code attached is by no means an extensive library of my code but does contain the most important elements such as data manipulation, analysis, plotting, and a small library of functions useful in any neural data analysis project.
