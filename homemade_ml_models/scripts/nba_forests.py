@@ -28,7 +28,7 @@ def train_and_evaluate_model(X_scaled, Y, ts=0.2, method='DT'):
         return accuracy
     elif method == 'RF':
         # Create and fit the model
-        RF = HMRandomForest(num_trees=20, max_depth=200)
+        RF = HMRandomForest(num_trees=20, max_depth=20)
         RF.fit(train_x, train_y)
         y_predictions = RF.makePredictions(test_x)
         accuracy = getAccuracy(y_predictions, test_y)

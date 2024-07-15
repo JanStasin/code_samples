@@ -10,8 +10,6 @@ from flexHM_nnet import *
 
 from data_prep import process_data
 
-
-
 def train_and_evaluate_model(X_scaled, Y, num_inter= 1200, hl_shape=[8,5], L=0.5, verbose=True):
     train_x, test_x, train_y, test_y = train_test_split(X_scaled, Y, test_size=0.2, random_state=0)
 
