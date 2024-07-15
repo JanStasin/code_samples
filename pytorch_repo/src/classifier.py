@@ -69,3 +69,5 @@ class MLClassifNet(nn.Module):
         x = self.lin3(x)
         x = torch.sigmoid(x)
         return x
+
+
