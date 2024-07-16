@@ -15,10 +15,9 @@ if parent_dir not in sys.path:
 
 # # import the module
 from preproc.data_prep import process_data
-from src.classifier import ClassifDs, ClassifNet
+from models.nba_models.classifier import ClassifDs, ClassifNet
 from src.run_class import class_torch_loop
 from torch.utils.data import DataLoader
-
 
 
 if __name__ == "__main__":
