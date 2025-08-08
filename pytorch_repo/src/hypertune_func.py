@@ -10,7 +10,7 @@ parent_dir = os.path.dirname(os.path.dirname(__file__))
 if parent_dir not in sys.path:
     sys.path.append(parent_dir)
 
-from src.classifier import ClassifDs, ClassifNet
+from models.nba_models.classifier import ClassifDs, ClassifNet
 from src.run_class import class_torch_loop
 from torch.utils.data import DataLoader
 

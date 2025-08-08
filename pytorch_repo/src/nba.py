@@ -39,9 +39,9 @@ if __name__ == "__main__":
     n_classes = len(NBA_data.y.unique()) ## get the unique labels
 
     ### Setting the hyper-parameters
-    h_nodes = (20,10)
-    n_epochs = 1000
-    l = 0.00001 ## learning rate
+    h_nodes = (30,15)
+    n_epochs = 500
+    l = 0.001 ## learning rate
 
     print( n_feats, h_nodes, n_classes, )
 

@@ -1,0 +1,9 @@
+autoflake==2.3.1
+backgroundremover==0.3.4
+flake8==7.3.0
+jupyter==1.1.1
+nbstripout==0.8.1
+pigar==2.1.1
+pre-commit==4.2.0
+pylint==3.3.7
+python-dotenv==1.1.0

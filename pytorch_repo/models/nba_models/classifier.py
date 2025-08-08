@@ -3,6 +3,8 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset
 
+
+
 class ClassifDs(Dataset):
     def __init__(self, X_train, y_train):
         super().__init__()
@@ -61,9 +63,8 @@ class MLClassifNet(nn.Module):
         self.relu = nn.ReLU()
 
     def forward(self, x):
-        #x = x.to(torch.float64)
         x = self.lin1(x)
-        x = self.relu(x) ## could also be relu ort other
+        x = self.relu(x)
         x = self.lin2(x)
         x = self.relu(x)
         x = self.lin3(x)
