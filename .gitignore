@@ -178,3 +178,5 @@ rakuten_2025/*.zip
 NOTES.md
 rakuten_2025/processed_data/X_train_ready.csv
 rakuten_2025/processed_data/X_train_ready.csv
+mri-ad/results_and_model_acc_*.npy
+rakuten_2025/notebooks/2.0-simon-data-exploration.ipynb
